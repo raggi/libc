@@ -140,6 +140,12 @@ pub const RLIMIT_NLIMITS: ::c_int = 16;
 
 pub const MAP_ANONYMOUS: ::c_int = MAP_ANON;
 
+pub const SOCK_STREAM: ::c_int = 2;
+pub const SOCK_DGRAM: ::c_int = 1;
+pub const SOCK_SEQPACKET: ::c_int = 5;
+pub const SOCK_DCCP: ::c_int = 6;
+pub const SOCK_PACKET: ::c_int = 10;
+
 pub const TCP_COOKIE_TRANSACTIONS: ::c_int = 15;
 pub const TCP_THIN_LINEAR_TIMEOUTS: ::c_int = 16;
 pub const TCP_THIN_DUPACK: ::c_int = 17;
